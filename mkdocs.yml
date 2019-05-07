@@ -1,0 +1,7 @@
+site_name: TouchDesigner Data Science
+
+theme:
+  name: 'material'
+
+extra_css:
+  - dark_theme.css
