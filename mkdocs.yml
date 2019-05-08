@@ -3,5 +3,11 @@ site_name: TouchDesigner Data Science
 theme:
   name: 'material'
 
+nav:
+  - Home: 'index.md'
+  - Setup: 'startup.md'
 extra_css:
   - dark_theme.css
+
+markdown_extensions:
+  - admonition
