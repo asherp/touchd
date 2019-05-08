@@ -1,0 +1,403 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.2.0">
+    
+    
+      
+        <title>Setup - TouchDesigner Data Science</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.750b69bd.css">
+      
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../dark_theme.css">
+    
+    
+      
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#quickstart" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="TouchDesigner Data Science" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              TouchDesigner Data Science
+            </span>
+            <span class="md-header-nav__topic">
+              Setup
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="TouchDesigner Data Science" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    TouchDesigner Data Science
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Setup
+      </label>
+    
+    <a href="./" title="Setup" class="md-nav__link md-nav__link--active">
+      Setup
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#miniconda" title="Miniconda" class="md-nav__link">
+    Miniconda
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-an-environment" title="Creating an environment" class="md-nav__link">
+    Creating an environment
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pointing-to-the-environment" title="Pointing to the environment" class="md-nav__link">
+    Pointing to the environment
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#miniconda" title="Miniconda" class="md-nav__link">
+    Miniconda
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-an-environment" title="Creating an environment" class="md-nav__link">
+    Creating an environment
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pointing-to-the-environment" title="Pointing to the environment" class="md-nav__link">
+    Pointing to the environment
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="quickstart">Quickstart</h1>
+<p>The first order of business is to get a compatible python environment for TouchDesigner.
+I prefer <code>miniconda3</code> for this. Miniconda avoids the pitfalls of a system-wide install
+while giving you the flexibility to add whatever modules you'll need.</p>
+<h2 id="miniconda">Miniconda</h2>
+<p>To install <code>miniconda3</code>, go <a href="https://docs.conda.io/en/latest/miniconda.html">here</a>.
+Don't worry about the python version just yet, either one will do. (We'll specify the appropriate
+python version when we create the environment below.)</p>
+<p>After you download, run the installer and you should be able to run <code>conda</code> commands when you open a terminal.
+To see what commands are available, run:</p>
+<pre><code>conda --help
+</code></pre>
+<h2 id="creating-an-environment">Creating an environment</h2>
+<p>To create your TouchDesigner environment, run the conda command</p>
+<pre><code>conda create -n touchd python==3.5 numpy==1.11.3
+</code></pre>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>As of this writing, TouchDesigner uses python==3.5 and numpy==1.11.3. This will likely change in the future!</p>
+</div>
+<p>Now that your environment is created, you can activate it with</p>
+<pre><code>conda activate touchd
+</code></pre>
+<p>This will change your command prompt to <code>(touchd)$</code> so you'll know you're working in it. From now on, any packages you install will be tied to this environment. </p>
+<h2 id="pointing-to-the-environment">Pointing to the environment</h2>
+<p>Once you've got your environment set up, you need to inform TouchDesigner of the location of it's site packages - that is, the directory where all the installed libraries live. While your <code>touchd</code> environment is active, type:</p>
+<pre><code>python -m site
+</code></pre>
+<p>Copy the path that ends in <code>site-packages</code> (under sys.path). Open TouchDesigner <code>-&gt;</code> edit <code>-&gt;</code> preferences <code>-&gt;</code> General <code>-&gt;</code> Python Module Path. Paste it there.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>On Windows, you will likely have <code>\\</code> in the path. Replace those with <code>/</code>.</p>
+</div>
+<p>Close and reopen touch designer.</p>
+<h1 id="data-science-packages">Data Science packages</h1>
+<h2 id="pandas">Pandas</h2>
+<p>Pandas is perhaps the most ubiquitous data science package out there, being adept at remixing large arrays of data (so long as it fits in memory). The latest version of pandas prefers numpy &gt;= 1.12.0, which is not what TouchDesigner currently uses. The earliest stable release of pandas that works with TouchDesigner is <code>0.23.0</code>.</p>
+<pre><code>pip install pandas==0.23.```0 so you'll know you're working in it. From now on, any packages you install will be tied to this environment.
+</code></pre>
+<h2 id="dask">Dask</h2>
+<p>If you find yourself needing handle datasets to large to fit in memory, then you should consider using <a href="https://dask.org/">Dask</a>. It allows you to easily launch tasks on multiple worker processes, has parallelized versions of pandas dataframes, several deployment options, and great documentation.</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href=".." title="Home" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Home
+              </span>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.39abc4af.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>
