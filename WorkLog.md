@@ -1,3 +1,8 @@
+# 2019-05-08 01:49:28.449153: clock-out
+
+* getting a compatible version of pandas
+* Startup documentation
+* Set up website
 
 # 2019-05-07 23:41:23.179830: clock-in
 
